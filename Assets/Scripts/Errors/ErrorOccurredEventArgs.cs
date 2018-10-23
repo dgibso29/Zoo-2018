@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zoo
+{
+    public class ErrorOccurredEventArgs
+    {
+        public ErrorType type;
+
+        public ErrorOccurredEventArgs(ErrorType errorType)
+        {
+            type = errorType;
+        }
+    }
+}
